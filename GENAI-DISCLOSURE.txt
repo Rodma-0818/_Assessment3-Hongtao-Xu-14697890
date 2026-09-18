@@ -1,0 +1,31 @@
+Assessment 3 - GenAI Usage Disclosure
+Student: Hongtao Xu
+Student number: 14697890
+
+Tools used
+- ChatGPT / Codex
+
+Prompts and requests made
+- Asked for explanations of the Assessment 3 specification and marking bands.
+- Asked for step-by-step guidance on Unity project organisation, Git branches,
+  animation controllers, audio setup, manual level layout, PacStudent movement,
+  and the LevelGenerator.
+- Asked for help designing an original science-fiction/pixel-art visual theme for
+  the player, enemies, collectibles, UI indicator, and wall tiles.
+- Shared Unity screenshots and error/status screenshots for troubleshooting.
+- Asked for help completing, checking, committing, merging, and packaging the
+  project.
+
+Outputs utilized
+- Planning and troubleshooting advice for Unity and Git workflows.
+- Suggestions and generated reference material used when producing the visual
+  asset set and arranging animations and audio.
+- Code assistance for PacStudentMovement.cs and LevelGenerator.cs, including
+  map mirroring, tile selection/rotation, runtime instantiation, camera fitting,
+  and AudioSource integration.
+- Assistance checking the finished scene, Git history, branch structure, and
+  submission archive against the assessment specification.
+
+All generated suggestions were reviewed and tested in the submitted Unity
+project. The final project structure, scene configuration, selected assets, and
+submitted repository reflect the student's project decisions.
