@@ -59934,6 +59934,61 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2100000001
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2100000002}
+  - component: {fileID: 2100000003}
+  m_Layer: 0
+  m_Name: LevelGenerator
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2100000002
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100000001}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &2100000003
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2100000001}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 1f6b6ab6b1fda7440b083c8416eceeff, type: 3}
+  m_Name:
+  m_EditorClassIdentifier:
+  tileTemplate: {fileID: 8615711473646683106, guid: fe94bd054cea3d34b9666dea49ee4d78, type: 3}
+  outsideCornerSprite: {fileID: 4582176181067875354, guid: 2aa53684d9b544445822e6f9ef30ad42, type: 3}
+  outsideWallSprite: {fileID: -2825904156821883578, guid: 26d5d7eb8277d214f99c20b3eea9da92, type: 3}
+  insideCornerSprite: {fileID: 7870555453108279816, guid: fb6298d532918894a9b320ebff85a1cf, type: 3}
+  insideWallSprite: {fileID: -4623066119651397874, guid: fc583c15f4f0390439166add3694fdde, type: 3}
+  pelletSprite: {fileID: -8357494700477734146, guid: 2b105bb7cac37d444b355f5823a04f60, type: 3}
+  powerPelletSprite: {fileID: 5254314887790251091, guid: 56e032bdc6733c54fa52c3ea72ab7f3d, type: 3}
+  tJunctionSprite: {fileID: -365716125522874669, guid: 229e9849fe7205c41b686fb522dd8509, type: 3}
+  ghostExitSprite: {fileID: -4623066119651397874, guid: fc583c15f4f0390439166add3694fdde, type: 3}
+  powerPelletController: {fileID: 9100000, guid: d9c811eca12712a45a1f0fb6c0a7da9d, type: 2}
+  cellSize: 0.32
 --- !u!1660057539 &9223372036854775807
 SceneRoots:
   m_ObjectHideFlags: 0
@@ -59960,3 +60015,4 @@ SceneRoots:
   - {fileID: 310498645}
   - {fileID: 1103768567}
   - {fileID: 1673000242}
+  - {fileID: 2100000002}
